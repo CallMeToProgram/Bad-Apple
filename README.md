@@ -1,6 +1,6 @@
 # Bad-Apple
 用Python实现字符画 Bad Apple
   
-  
-先运行convert_and_write.py将视频转化为字符画  
-再运行Bad Apple.py
+ 
+将 Bad Apple.py 里的 VIDEO_PATH 和 BGM_PATH 改为自己的文件路径
+然后运行Bad Apple.py
