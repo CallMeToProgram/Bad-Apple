@@ -25,11 +25,12 @@ if Path("video_data.py").exists():
 else:
     if not Path(VIDEO_PATH).exists():
         print("视频不存在: ", VIDEO_PATH)
-    if not Path(BGM_PATH).exists():
-        print("音乐不存在: ", BGM_PATH)
     video_data = convert.write(VIDEO_PATH)
     input("\n转换完成, 按任意键继续...")
 
+ if not Path(BGM_PATH).exists():
+        print("音乐不存在: ", BGM_PATH)
+        
 count = 0
 
 stdsrc = curses.initscr()
