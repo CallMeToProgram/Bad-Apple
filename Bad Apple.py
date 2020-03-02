@@ -4,7 +4,7 @@
 # Mail:      2395795924@qq.com
 
 # Created at 2019-06-17
-# Updated at 2019-12-20
+# Updated at 2020-03-03
 
 import pygame
 import time
@@ -28,8 +28,8 @@ else:
     video_data = convert.write(VIDEO_PATH)
     input("\n转换完成, 按任意键继续...")
 
- if not Path(BGM_PATH).exists():
-        print("音乐不存在: ", BGM_PATH)
+if not Path(BGM_PATH).exists():
+    print("音乐不存在: ", BGM_PATH)
         
 count = 0
 
