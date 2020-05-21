@@ -2,4 +2,4 @@
 用Python实现字符画 Bad Apple
   
  
-download后运行Bad Apple.py即可
+下载下来后运行Bad Apple.py即可
